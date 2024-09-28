@@ -63,7 +63,7 @@ const UserTeamCard = ({ onNext, groundSelection, onCalculateUserRating }) => {
       <h2>Your Team Information</h2>
       <div className="inputs-column">
         <label class="label" htmlFor="player-ratings">
-          Please enter your predicted XI players rating:
+          Your predicted XI player ratings:
         </label>
 
         <div className="player-ratings-grid">
@@ -103,7 +103,7 @@ const UserTeamCard = ({ onNext, groundSelection, onCalculateUserRating }) => {
       </div>
       <div>
         <label class="label" htmlFor="natinoality">
-          Do you have more than 5 players from the same nation?
+          More than 5 players from the same nation in the starting XI?
         </label>
         <select
           id="stadium-level"

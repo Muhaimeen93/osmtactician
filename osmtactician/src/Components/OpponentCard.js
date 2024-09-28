@@ -1,6 +1,7 @@
 // src/components/OpponentCard.js
 import React, { useState, useEffect } from "react";
 import "../CSS/InputCard.css";
+import formationsData from "../Files/formations.json";
 
 const OpponentCard = ({
   onNext,
@@ -87,15 +88,16 @@ const OpponentCard = ({
           required
         >
           <option value="">Select Formation</option>
-          <option value="433A">4-3-3A</option>
-          <option value="433B">4-3-3B</option>
-          <option value="523A">5-2-3A</option>
-          {/* Add more options as needed */}
+          {formationsData.formations.map((formationOption) => (
+            <option key={formationOption.id} value={formationOption.id}>
+              {formationOption.label}
+            </option>
+          ))}
         </select>
       </div>
       <div className="inputs-column">
         <label htmlFor="player-ratings">
-          Please enter opponent's predicted XI players rating:
+          Opponent's predicted XI player ratings:
         </label>
 
         <div className="player-ratings-grid">
@@ -133,7 +135,7 @@ const OpponentCard = ({
       </div>
       <div>
         <label class="label" htmlFor="natinoality">
-          Does your opponent have more than 5 players from the same nation?
+          More than 5 players from the same nation in the starting XI?
         </label>
         <select
           id="stadium-level"

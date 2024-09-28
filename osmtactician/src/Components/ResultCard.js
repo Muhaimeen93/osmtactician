@@ -24,7 +24,7 @@ const ResultCard = ({
 
   return (
     <div className="input-card">
-      <h2>Match Results</h2>
+      <h2>Tactics</h2>
       <div>
         <p style={{ display: "none" }}>
           Opponent's Final Team Rating: {opponentTeamRating}%
