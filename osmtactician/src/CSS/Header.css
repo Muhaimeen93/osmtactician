@@ -1,0 +1,19 @@
+.header-container {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 5px solid #F70F02;
+  }
+  
+  .header-logo {
+    max-width: 30%;
+    height: auto;
+  }
+  
+  .header-title {
+    color: #333;
+    margin-left: 20px;
+  }
+  

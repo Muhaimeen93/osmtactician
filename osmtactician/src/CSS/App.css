@@ -1,0 +1,10 @@
+/* src/App.css */
+
+.App {
+  position: relative;
+  min-height: 100vh; /* Use viewport height to cover the entire screen */
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distribute contents vertically */
+}

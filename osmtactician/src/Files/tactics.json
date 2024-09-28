@@ -1,0 +1,14 @@
+{
+    "433B": {
+      "W": {
+        "Formation": "433A",
+        "Parameters": "65-75-65",
+        "Instructions": "Attack Only-Stay In Position-Defend Deep"
+      },
+      "S": {
+        "Formation": "523A",
+        "Parameters": "30-36-72",
+        "Instructions": "Attack Only-Help Defense-Defend Deep"
+      }
+    }
+  }
