@@ -2,7 +2,7 @@
   min-width: 300px;
   padding: 20px;
   background-color: white;
-  color: black;
+  color: #155f8a; /* Font color */
   border-radius: 10px;
   text-align: center;
   margin: 0 auto;
@@ -24,7 +24,7 @@
 
 .input-card select,
 .input-card input {
-  width: calc(100% - 20px);
+  width: calc(100% - 10px);
   margin-bottom: 10px;
   padding: 8px;
   border: 1px solid #ccc;
@@ -39,8 +39,10 @@
 
 .input-card .player-ratings-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); 
+  grid-template-columns: repeat(4, 0.8fr); 
   grid-gap: 10px; 
+  padding: 8px;
+  padding-right: 10px;
 }
 
 .input-card .player-ratings-grid input:nth-child(n+9) {
@@ -49,4 +51,32 @@
 
 .input-card .player-ratings-grid {
   grid-template-rows: auto auto auto; 
+}
+.button-blue {
+  background-color: #197EBC;
+  color: white; /* Optional: Text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-blue:hover {
+  background-color: #155f8a; /* Optional: Darker shade on hover */
+}
+
+
+.popup-box {
+  position: absolute;
+  top: 30px; /* Adjust this to position the popup below the button */
+  left: 0;
+  background-color: #e0f3ff;
+  color: #155f8a;
+  border: 1px solid #155f8a;
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
 }

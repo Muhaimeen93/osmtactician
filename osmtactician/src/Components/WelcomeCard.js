@@ -14,7 +14,7 @@ const WelcomeCard = ({ onNext }) => {
         We make your life easier by providing you the best counter tactics.
         Follow the instructions provided.
       </p>
-      <button onClick={handleClick}>Next</button>
+      <button  className="button-blue" onClick={handleClick}>Next</button>
     </div>
   );
 };

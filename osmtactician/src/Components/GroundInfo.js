@@ -19,7 +19,9 @@ const GroundInfo = ({ onNext, initialSelection, onGroundUpdate }) => {
     <div className="input-card">
       <h2>Ground Information</h2>
       <div>
-        <label class="label" htmlFor="selectedGround">Ground:</label>
+        <label class="label" htmlFor="selectedGround">
+          Ground:
+        </label>
         <select
           id="selectedGround"
           value={selectedGround}
@@ -34,7 +36,9 @@ const GroundInfo = ({ onNext, initialSelection, onGroundUpdate }) => {
           <option value="A">Opponent's Home</option>
         </select>
       </div>
-      <button onClick={handleClick}>Next</button>
+      <button className="button-blue" onClick={handleClick}>
+        Next
+      </button>
     </div>
   );
 };

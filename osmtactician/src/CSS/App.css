@@ -3,8 +3,21 @@
 .App {
   position: relative;
   min-height: 100vh; /* Use viewport height to cover the entire screen */
-  background-color: #f8f9fa;
+ /* background-color: #f8f9fa;*/
+  background-color: #197EBC;
   display: flex;
   flex-direction: column;
   justify-content: space-between; /* Distribute contents vertically */
+}
+.button-blue {
+  background-color: #197EBC;
+  color: white; /* Optional: Text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-blue:hover {
+  background-color: #155f8a; /* Optional: Darker shade on hover */
 }

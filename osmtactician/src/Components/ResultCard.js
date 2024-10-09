@@ -53,8 +53,60 @@ const ResultCard = ({
             <p>Loading tactics data...</p> // Display a loading message if tacticsData is null
           )}
         </div>
+        <div style={{ textAlign: "left" }}>
+          <p>
+            <label class="label">Captain: </label> Oldest Player of your playing
+            XI
+          </p>
+          <p>
+            <label class="label">Penalty: </label> Highest Rated Forward of your
+            playing XI{" "}
+          </p>
+          <p>
+            <label class="label">Free Kick: </label> Highest Rated Forward/Mid
+            of your playing XI{" "}
+          </p>
+          <p>
+            <label class="label">Corner: </label> Highest Rated Midfielder of
+            your playing XI
+          </p>
+        </div>
+        <br></br>
+        <div style={{ textAlign: "left" }}>
+          <label class="label">Tackling: </label>
+          <ul style={{ listStyleType: "disc", paddingLeft: "20px" }}>
+            <li>
+              Use Careful if Referee is{" "}
+              <span style={{ color: "red" }}>Red</span>
+            </li>
+            <li>
+              Use Normal if Referee is{" "}
+              <span style={{ color: "orange" }}>Orange</span>/
+              <span style={{ color: "yellow" }}>Yellow</span>
+            </li>
+            <li>
+              Use Aggressive if Referee is{" "}
+              <span style={{ color: "green" }}>Green</span>/
+              <span style={{ color: "blue" }}>Blue</span>
+            </li>
+          </ul>
+        </div>
+        <div style={{ textAlign: "left" }}>
+          <label class="label">Additional Instructions: </label>
+          <ul style={{ listStyleType: "disc", paddingLeft: "20px" }}>
+            <li>
+              Always select the correct Specialists. [Captain,Penalty taker
+              etc.]
+            </li>
+            <li>Always use the players in their original position.</li>
+            <li>Never put a player in red/yellow out of positions.</li>
+            <li>Never use Reckless tackling.</li>
+          </ul>
+        </div>
       </div>
-      <button onClick={() => window.location.reload()}>Done</button>
+      <button className="button-blue" onClick={() => window.location.reload()}>
+        Done
+      </button>
     </div>
   );
 };

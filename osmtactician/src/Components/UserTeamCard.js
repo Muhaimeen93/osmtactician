@@ -7,6 +7,7 @@ const UserTeamCard = ({ onNext, groundSelection, onCalculateUserRating }) => {
   const [teamRating, setTeamRating] = useState(null);
   const [isFormValid, setIsFormValid] = useState(false);
   const [natBonus, setNatBonus] = useState(null);
+  const [showAlert, setShowAlert] = useState(false);
 
   const handleInputChange = () => {
     // Check if all required fields are filled
@@ -15,6 +16,15 @@ const UserTeamCard = ({ onNext, groundSelection, onCalculateUserRating }) => {
       stadiumLevel !== "" &&
       natBonus !== null;
     setIsFormValid(isValid);
+  };
+
+  const handleAlert = () => {
+    if (isFormValid === false) {
+      setShowAlert(true);
+      setTimeout(() => {
+        setShowAlert(false);
+      }, 2000);
+    }
   };
 
   useEffect(() => {
@@ -116,9 +126,23 @@ const UserTeamCard = ({ onNext, groundSelection, onCalculateUserRating }) => {
           <option value="N">N</option>
         </select>
       </div>
-      <button onClick={handleNext} disabled={!isFormValid}>
-        Next
-      </button>
+      <div
+        style={{ position: "relative", display: "inline-block" }}
+        onMouseEnter={handleAlert}
+      >
+        <button
+          className="button-blue"
+          onClick={handleNext}
+          disabled={!isFormValid}
+        >
+          Next
+        </button>
+        {showAlert && (
+          <div className="popup-box">
+            <p>Please fill up the form</p>
+          </div>
+        )}
+      </div>
       {teamRating !== null && (
         <div className="team-rating">
           <p>Your Team Rating: {teamRating}%</p>

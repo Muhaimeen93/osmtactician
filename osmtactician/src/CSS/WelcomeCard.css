@@ -1,28 +1,26 @@
 /* src/components/WelcomeCard.css */
 
 .welcome-card {
-    width: 300px;
-    padding: 20px;
-    background-color: white;
-    color: black;
-    border-radius: 10px;
-    text-align: center;
-    margin: 0 auto; /* Center the card horizontally */
-    margin-top: 50px; /* Adjust as necessary to create space between the header and the card */
-    margin-bottom: 50px; /* Adjust as necessary to create space between the header and the card */
-  }
-  
-  button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+  color: #155f8a; /* Font color */
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto; /* Center the card horizontally */
+  margin-top: 50px; /* Adjust as necessary to create space between the header and the card */
+  margin-bottom: 50px; /* Adjust as necessary to create space between the header and the card */
+}
+
+.button-blue {
+  background-color: #197EBC;
+  color: white; /* Optional: Text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-blue:hover {
+  background-color: #155f8a; /* Optional: Darker shade on hover */
+}

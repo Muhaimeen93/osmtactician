@@ -2,13 +2,360 @@
     "433B": {
       "W": {
         "Formation": "433A",
+        "Gameplan" : "Wing Play",
         "Parameters": "65-75-65",
         "Instructions": "Attack Only-Stay In Position-Defend Deep"
       },
       "S": {
         "Formation": "523A",
+        "Gameplan" : "Counter Attack",
         "Parameters": "30-36-72",
-        "Instructions": "Attack Only-Help Defense-Defend Deep"
+        "Instructions": "Attack Only-Protect Defense-Defend Deep"
+      }
+    },
+
+    "433A": {
+      "W": {
+        "Formation": "433B",
+        "Gameplan" : "Wing Play",
+        "Parameters": "65-65-75",
+        "Instructions": "Attack Only-Stay In Position-Defend Deep"
+      },
+      "S": {
+        "Formation": "451",
+        "Gameplan" : "Shoot On Sight",
+        "Parameters": "40-25-35",
+        "Instructions": "Attack Only-Protect Defense-Defend Deep"
+      }
+    },
+
+    "352": {
+      "W": {
+        "Formation": "433B",
+        "Gameplan" : "Passing Game",
+        "Parameters": "67-75-62",
+        "Instructions": "Support Mid-Protect Defense-Defend Deep"
+      },
+      "S": {
+        "Formation": "433B",
+        "Gameplan" : "Passing Game",
+        "Parameters": "60-70-60",
+        "Instructions": "Support Mid-Protect Defense-Defend Deep"
+      }
+    },
+
+    "4231": {
+      "W": {
+        "Formation": "451",
+        "Gameplan" : "Shoot On Sight",
+        "Parameters": "65-38-67",
+        "Instructions": "Attack Only-Protect Defense-Defend Deep"
+      },
+      "S": {
+        "Formation": "451",
+        "Gameplan" : "Shoot On Sight",
+        "Parameters": "17-38-68",
+        "Instructions": "Attack Only-Protect Defense-Defend Deep"
+      }
+    },
+
+    "343B": {
+      "W": {
+        "Formation": "442B",
+        "Gameplan" : "Wing Play",
+        "Parameters": "82-67-55",
+        "Instructions": "Support Mid-Push Forward-Defend Deep"
+      },
+      "S": {
+        "Formation": "3322",
+        "Gameplan" : "Shoot On Sight",
+        "Parameters": "54-35-59",
+        "Instructions": "Support Mid-Stay In Position-Defend Deep\nOffside Trap:On & Man Marking"
+      }
+    },
+
+    "5311": {
+      "W": {
+        "Formation": "442B",
+        "Gameplan" : "Passing Game",
+        "Parameters": "62-72-62",
+        "Instructions": "Support Mid-Protect Defense-Defend Deep"
+      },
+      "S": {
+        "Formation": "451",
+        "Gameplan" : "Shoot On Sight",
+        "Parameters": "57-36-70",
+        "Instructions": "Attack Only-Protect Defense-Defend Deep"
+      }
+    },
+
+    "3322": {
+      "W": {
+        "Formation": "442B",
+        "Gameplan" : "Passing Game",
+        "Parameters": "72-76-78",
+        "Instructions": "Attack Only-Stay In Position-Attacking Fullback"
+      },
+      "S": {
+        "Formation": "541B",
+        "Gameplan" : "Counter Attack",
+        "Parameters": "72-12-78",
+        "Instructions": "Attack Only-Stay In Position-Defend Deep"
+      }
+    },
+
+    "442B": {
+      "W": {
+        "Formation": "433B",
+        "Gameplan" : "Wing Play",
+        "Parameters": "65-75-67",
+        "Instructions": "Attack Only-Stay In Position-Defend Deep"
+      },
+      "S": {
+        "Formation": "4231",
+        "Gameplan" : "Shoot On Sight",
+        "Parameters": "50-30-75",
+        "Instructions": "Support Mid-Protect Defense-Defend Deep"
+      }
+    },
+
+    "451": {
+      "W": {
+        "Formation": "343B",
+        "Gameplan" : "Wing Play",
+        "Parameters": "72-73-72",
+        "Instructions": "Attack Only-Stay In Position-Defend Deep\nOffside Trap: On"
+      },
+      "S": {
+        "Formation": "424A",
+        "Gameplan" : "Long Ball",
+        "Parameters": "30-30-70",
+        "Instructions": "Support Mid-Stay In Position-Defend Deep"
+      }
+    },
+
+    "334A": {
+      "W": {
+        "Formation": "334B",
+        "Gameplan" : "Wing Play",
+        "Parameters": "65-70-65",
+        "Instructions": "Attack Only-Stay In Position-Defend Deep"
+      },
+      "S": {
+        "Formation": "433B",
+        "Gameplan" : "Wing Play",
+        "Parameters": "65-50-20",
+        "Instructions": "Attack Only-Stay In Position-Defend Deep"
+      }
+    },
+
+    "532": {
+      "W": {
+        "Formation": "451",
+        "Gameplan" : "Shoot On Sight",
+        "Parameters": "52-57-70",
+        "Instructions": "Attack Only-Protect Defense-Defend Deep"
+      },
+      "S": {
+        "Formation": "451",
+        "Gameplan" : "Shoot On Sight",
+        "Parameters": "30-30-70",
+        "Instructions": "Attack Only-Protect Defense-Defend Deep"
+      }
+    },
+
+    "442A": {
+      "W": {
+        "Formation": "433B",
+        "Gameplan" : "Wing Play",
+        "Parameters": "65-65-75",
+        "Instructions": "Attack Only-Stay In Position-Defend Deep"
+      },
+      "S": {
+        "Formation": "451",
+        "Gameplan" : "Shoot On Sight",
+        "Parameters": "20-20-72",
+        "Instructions": "Attack Only-Protect Defense-Defend Deep"
+      }
+    },
+
+    "523A": {
+      "W": {
+        "Formation": "433A",
+        "Gameplan" : "Wing Play",
+        "Parameters": "65-75-65",
+        "Instructions": "Attack Only-Stay In Position-Defend Deep"
+      },
+      "S": {
+        "Formation": "451",
+        "Gameplan" : "Shoot On Sight",
+        "Parameters": "30-30-70",
+        "Instructions": "Attack Only-Protect Defense-Defend Deep"
+      }
+    },
+
+    "523B": {
+      "W": {
+        "Formation": "433A",
+        "Gameplan" : "Wing Play",
+        "Parameters": "65-75-65",
+        "Instructions": "Attack Only-Stay In Position-Defend Deep"
+      },
+      "S": {
+        "Formation": "451",
+        "Gameplan" : "Shoot On Sight",
+        "Parameters": "30-30-70",
+        "Instructions": "Attack Only-Protect Defense-Defend Deep"
+      }
+    },
+
+    "541A": {
+      "W": {
+        "Formation": "451",
+        "Gameplan" : "Shoot On Sight",
+        "Parameters": "52-57-70",
+        "Instructions": "Attack Only-Protect Defense-Defend Deep"
+      },
+      "S": {
+        "Formation": "451",
+        "Gameplan" : "Shoot On Sight",
+        "Parameters": "30-30-70",
+        "Instructions": "Attack Only-Protect Defense-Defend Deep"
+      }
+    },
+
+    "541B": {
+      "W": {
+        "Formation": "451",
+        "Gameplan" : "Shoot On Sight",
+        "Parameters": "52-57-70",
+        "Instructions": "Attack Only-Protect Defense-Defend Deep"
+      },
+      "S": {
+        "Formation": "451",
+        "Gameplan" : "Shoot On Sight",
+        "Parameters": "30-30-70",
+        "Instructions": "Attack Only-Protect Defense-Defend Deep"
+      }
+    },
+
+    "343A": {
+      "W": {
+        "Formation": "433A",
+        "Gameplan" : "Wing Play",
+        "Parameters": "65-75-65",
+        "Instructions": "Attack Only-Stay In Position-Defend Deep"
+      },
+      "S": {
+        "Formation": "352",
+        "Gameplan" : "Shoot On Sight",
+        "Parameters": "45-26-55a",
+        "Instructions": "Attack Only-Stay In Position-Defend Deep"
+      }
+    },
+
+    "325": {
+      "W": {
+        "Formation": "433A",
+        "Gameplan" : "Wing Play",
+        "Parameters": "65-75-65",
+        "Instructions": "Attack Only-Stay In Position-Defend Deep"
+      },
+      "S": {
+        "Formation": "433B",
+        "Gameplan" : "Wing Play",
+        "Parameters": "69-69-59",
+        "Instructions": "Attack Only-Protect Defense-Defend Deep"
+      }
+    },
+
+    "3232": {
+      "W": {
+        "Formation": "433A",
+        "Gameplan" : "Wing Play",
+        "Parameters": "65-75-65",
+        "Instructions": "Attack Only-Stay In Position-Defend Deep"
+      },
+      "S": {
+        "Formation": "433B",
+        "Gameplan" : "Wing Play",
+        "Parameters": "69-69-59",
+        "Instructions": "Attack Only-Protect Defense-Defend Deep"
+      }
+    },
+
+    "334B": {
+      "W": {
+        "Formation": "433A",
+        "Gameplan" : "Wing Play",
+        "Parameters": "65-75-65",
+        "Instructions": "Attack Only-Stay In Position-Defend Deep"
+      },
+      "S": {
+        "Formation": "433B",
+        "Gameplan" : "Wing Play",
+        "Parameters": "69-69-59",
+        "Instructions": "Attack Only-Protect Defense-Defend Deep"
+      }
+    },
+
+    "424A": {
+      "W": {
+        "Formation": "433A",
+        "Gameplan" : "Wing Play",
+        "Parameters": "65-75-65",
+        "Instructions": "Attack Only-Stay In Position-Defend Deep"
+      },
+      "S": {
+        "Formation": "532B",
+        "Gameplan" : "Counter Attack",
+        "Parameters": "30-36-72",
+        "Instructions": "Attack Only-Protect Defense-Defend Deep"
+      }
+    },
+
+    "424B": {
+      "W": {
+        "Formation": "433A",
+        "Gameplan" : "Wing Play",
+        "Parameters": "65-75-65",
+        "Instructions": "Attack Only-Stay In Position-Defend Deep"
+      },
+      "S": {
+        "Formation": "451",
+        "Gameplan" : "Shoot On Sight",
+        "Parameters": "51-32-61",
+        "Instructions": "Attack Only-Protect Defense-Defend Deep"
+      }
+    },
+
+    "631A": {
+      "W": {
+        "Formation": "433A",
+        "Gameplan" : "Wing Play",
+        "Parameters": "65-75-65",
+        "Instructions": "Attack Only-Stay In Position-Defend Deep"
+      },
+      "S": {
+        "Formation": "451",
+        "Gameplan" : "Shoot On Sight",
+        "Parameters": "30-30-70",
+        "Instructions": "Attack Only-Protect Defense-Defend Deep"
+      }
+    },
+
+    "631B": {
+      "W": {
+        "Formation": "433A",
+        "Gameplan" : "Wing Play",
+        "Parameters": "65-75-65",
+        "Instructions": "Attack Only-Stay In Position-Defend Deep"
+      },
+      "S": {
+        "Formation": "451",
+        "Gameplan" : "Shoot On Sight",
+        "Parameters": "30-30-70",
+        "Instructions": "Attack Only-Protect Defense-Defend Deep"
       }
     }
-  }
+}
